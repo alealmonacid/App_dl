@@ -1,0 +1,83 @@
+.main {
+  padding: 0 5%;
+  &__title {
+    font-size: $font-size-xx-large;
+    font-family: $montserrat-font;
+    font-weight: $font-medium;
+    padding: 40px 15px;
+    justify-content: center;
+
+    @media (min-width: $min-laptop) {
+      justify-content: left;
+    }
+  }
+
+  &__preview {
+    height: 200px;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 20px;
+    
+  }
+  &__img_bg{
+    &__1{
+        background-image: url("../../../assets/images/image-1.png"); 
+    }
+    &__2{
+        background-image: url("../../../assets/images/image-2.png"); 
+    }
+    &__3{
+        background-image: url("../../../assets/images/image-3.png"); 
+    }
+    &__4{
+        background-image: url("../../../assets/images/image-4.png"); 
+    }
+    &__5{
+        background-image: url("../../../assets/images/image-5.png"); 
+    }
+    &__6{
+        background-image: url("../../../assets/images/image-6.png"); 
+    }
+    &__7{
+        background-image: url("../../../assets/images/image-7.png"); 
+    }
+    &__8{
+        background-image: url("../../../assets/images/image-8.png"); 
+    }
+
+}
+
+  &__name {
+    font-size: $font-size-xx-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__views {
+    color: $gray;
+    margin-bottom: 50px;
+    font-size: $font-size-x-large;
+  }
+}
+
+sup {
+  vertical-align: super;
+  font-size: $font-size-x-small;
+  top: -1.1em;
+}
+
+.nav__logo {
+  font-family: $jost-font;
+  font-size: 50px;
+}
+
+.nav--custom {
+  padding: 10px 4% 10px 5%;
+}
+
+.nav__icons {
+  display: none;
+  @media (min-width: $min-laptop) {
+    display: initial;
+  }
+}
